@@ -1,0 +1,298 @@
+/*
+ Theme Name:   Deuvede
+ Theme URI:    https://wordpress.org/themes/twentyfifteen/
+ Description:  Deuvede podcast wordpress theme
+ Author:       Raul Alvarez & Carlos Alvarez
+ Author URI:   http://deuvede.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+.bg-deuvegreen {
+  background-color: #00515C;
+}
+
+.bg-deuvelight {
+  background-color: #009099;
+}
+
+.deuvegreen {
+  color: #00515C;
+}
+
+.deuvelight {
+  color: #009099;
+}
+
+.comment-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.comment-body {
+	padding-top: 16px; padding-top: 1rem; padding-bottom: 16px; padding-bottom: 1rem;
+}  
+
+.children {
+	list-style: none;
+}
+
+.solid-sh {
+	/*-box-shadow: 0px 1px 0px 0px rgba(170,170,170,1);*/
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(170,170,170,1);
+	box-shadow: 0px 1px 0px 0px rgba(170,170,170,1);
+
+}
+
+.difuse-sh {
+	-webkit-box-shadow: 0px 0px 80px 0px rgba(0,0,0,0.2), 0px 0px 40px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 80px 0px rgba(0,0,0,0.2), 0px 0px 40px 0px rgba(0,0,0,0.1);
+}
+
+.o100 {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	-ms-opacity: 1;
+	-o-opacity: 1;
+	opacity: 1;
+}
+
+.o80 {
+	-webkit-opacity: .8;
+	-moz-opacity: .8;
+	-ms-opacity: .8;
+	-o-opacity: .8;
+	opacity: .8;
+}
+
+.o60 {
+	-webkit-opacity: .6;
+	-moz-opacity: .6;
+	-ms-opacity: .6;
+	-o-opacity: .6;
+	opacity: .6;
+}
+
+.o40 {
+	-webkit-opacity: .4;
+	-moz-opacity: .4;
+	-ms-opacity: .4;
+	-o-opacity: .4;
+	opacity: .4;
+}
+
+.o20 {
+	-webkit-opacity: .2;
+	-moz-opacity: .2;
+	-ms-opacity: .2;
+	-o-opacity: .2;
+	opacity: .2;
+		
+}
+
+.blogTitle a {
+	color: white;
+
+}
+
+.blogTitle a:visited {
+	color: white;
+}
+
+.blogTitle a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+form p label,
+	   input[type=text],
+	   input[type=email],
+	   input[type=url] {
+	display: block;
+	width: 349px;
+}
+
+
+form p input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  border-color: rgba(0,0,0,.125);
+  border-radius: 3px;
+}
+
+form p input:focus,
+form p input.is-focused {
+  outline: none;
+  border-color: #0074d9;
+  box-shadow: 0 0 0 2px rgba(0, 116, 217, 0.5);
+}
+
+form p input:disabled,
+form p input.is-disabled {
+  background-color: #000000;
+  background-color: rgba(0,0,0,.125);
+  opacity: .5;
+}
+
+form p input:read-only:not(select),
+form p input.is-read-only {
+  background-color: #000000;
+  background-color: rgba(0,0,0,.125);
+}
+
+
+form p input.is-success {
+  border-color: #2ecc40;
+}
+
+form p input.is-success:focus,
+form p input.is-success.is-focused {
+  box-shadow: 0 0 0 2px rgba(46, 204, 64, 0.5);
+}
+
+form p input.is-warning {
+  border-color: #ffdc00;
+}
+
+form p input.is-warning:focus,
+form p input.is-warning.is-focused {
+  box-shadow: 0 0 0 2px rgba(255, 220, 0, 0.5);
+}
+
+form p input:invalid,
+form p input.is-error {
+  border-color: #ff4136;
+}
+
+form p input:invalid:focus,
+form p input:invalid.is-focused,
+form p input.is-error:focus,
+form p input.is-error.is-focused {
+  box-shadow: 0 0 0 2px rgba(255, 65, 54, 0.5);
+}
+
+/*Textarea*/
+
+form p textarea {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  border-color: rgba(0,0,0,.125);
+  border-radius: 3px;
+}
+
+form p textarea:focus,
+form p textarea.is-focused {
+  outline: none;
+  border-color: #0074d9;
+  box-shadow: 0 0 0 2px rgba(0, 116, 217, 0.5);
+}
+
+form p textarea:disabled,
+form p textarea.is-disabled {
+  background-color: #000000;
+  background-color: rgba(0,0,0,.125);
+  opacity: .5;
+}
+
+form p textarea:read-only:not(select),
+form p textarea.is-read-only {
+  background-color: #000000;
+  background-color: rgba(0,0,0,.125);
+}
+
+
+form p textarea.is-success {
+  border-color: #2ecc40;
+}
+
+form p textarea.is-success:focus,
+form p textarea.is-success.is-focused {
+  box-shadow: 0 0 0 2px rgba(46, 204, 64, 0.5);
+}
+
+/*form p textarea.is-warning {
+  border-color: #ffdc00;
+}*/
+
+/*form p textarea.is-warning:focus,
+form p textarea.is-warning.is-focused {
+  box-shadow: 0 0 0 2px rgba(255, 220, 0, 0.5);
+}*/
+
+/*form p textarea:invalid,
+form p textarea.is-error {
+  border-color: #ff4136;
+}*/
+
+/*form p textarea:invalid:focus,
+form p textarea:invalid.is-focused,
+form p textarea.is-error:focus,
+form p textarea.is-error.is-focused {
+  box-shadow: 0 0 0 2px rgba(255, 65, 54, 0.5);
+}*/
+
+/* Basscss Btn */
+
+form p input[type=submit] {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 18px;
+  line-height: 1.125rem;
+  padding: 8px 16px;
+  padding: .5rem 1rem;
+  margin: 0;
+  height: auto;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+form p input[type=submit]:hover {
+  text-decoration: none;
+}
+
+form p input[type=submit]:focus {
+  outline: none;
+  border-color: #000000;
+  border-color: rgba(0,0,0,.125);
+  box-shadow: 0 0 0 3px rgba(0,0,0,.25);
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+form p input[type=submit] {
+  color: #fff;
+  background-color: #00515C;
+  border-radius: 3px;
+}
+
+form p input[type=submit]:hover {
+  box-shadow: inset 0 0 0 20rem rgba(0,0,0,.0625);
+}
+
+form p input[type=submit]:active {
+  box-shadow: inset 0 0 0 20rem rgba(0,0,0,.125),
+    inset 0 3px 4px 0 rgba(0,0,0,.25),
+    0 0 1px rgba(0,0,0,.125);
+}
+
+form p input[type=submit]:disabled,
+form p input[type=submit].is-disabled {
+  opacity: .5;
+}
